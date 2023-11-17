@@ -6,6 +6,7 @@ I am a [Registered Health Information Technician](https://www.ahima.org/certific
 
 In a previous life, I earned a [BFA](https://en.wikipedia.org/wiki/Bachelor_of_Fine_Arts) in studio art and was a [graphic designer](https://www.behance.net/andybruce1) for 15 years.
 
+![Screenshot 2023-11-17 1417388](https://github.com/andrewallenbruce/andrewallenbruce/assets/89861642/040d214b-d6f4-4951-9249-a903106bea24)
 <!--
 **andrewallenbruce/andrewallenbruce** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
