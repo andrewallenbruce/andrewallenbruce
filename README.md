@@ -6,7 +6,7 @@ I am a [Registered Health Information Technician](https://www.ahima.org/certific
 
 In a previous life, I earned a [BFA](https://en.wikipedia.org/wiki/Bachelor_of_Fine_Arts) in studio art and was a [graphic designer](https://www.behance.net/andybruce1) for 15 years.
 
-[![GH Trends](https://api.githubtrends.io/user/svg/andrewallenbruce/repos?time_range=one_year&loc_metric=changed&theme=dark)]
+[![GH Trends](https://api.githubtrends.io/user/svg/andrewallenbruce/repos?time_range=one_year&loc_metric=changed&theme=dark)](https://www.githubtrends.io)
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=andrewallenbruce&theme=highcontrast&border_radius=10)](https://git.io/streak-stats)
 
