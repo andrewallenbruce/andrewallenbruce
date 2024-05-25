@@ -11,7 +11,9 @@ In a previous life, I earned a [BFA](https://en.wikipedia.org/wiki/Bachelor_of_F
 -->
 
 <center>
+    
 [![GitHub Streak](https://streak-stats.demolab.com?user=andrewallenbruce&theme=highcontrast&border_radius=10)](https://git.io/streak-stats)
+
 </center>
 
 <!--
