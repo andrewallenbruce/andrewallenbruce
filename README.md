@@ -9,3 +9,6 @@ I'm a data analyst with a degree in Health Information Management. I am a [Regis
 ![Github Contribution Graph](https://ghchart.rshah.org/andrewallenbruce)
 
 ---
+
+![Profile](./profile.svg)
+![Commit Activity](./timedist.svg)
