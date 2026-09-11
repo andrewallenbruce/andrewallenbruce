@@ -1,37 +1,24 @@
-# Visit https://github.com/lowlighter/metrics#-documentation for full reference
-name: Metrics
+name: Update Stats
 on:
-  # Schedule updates (each hour)
-  schedule: [{cron: "0 * * * *"}]
-  # Lines below let you run workflow manually and on each commit
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
+permissions:
+  contents: write
 jobs:
-  github-metrics:
+  update:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: actions/checkout@v6
+      - uses: lucifer1004/github-stats-typst@v1
         with:
-          # Your GitHub token
-          # The following scopes are required:
-          #  - public_access (default scope)
-          # The following additional scopes may be required:
-          #  - read:org      (for organization related metrics)
-          #  - read:user     (for user related data)
-          #  - read:packages (for some packages related data)
-          #  - repo          (optional, if you want to include private repositories)
-          token: ${{ secrets.GH.METRICS }}
-
-          # Options
-          user: andrewallenbruce
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: America/New_York
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_from: 300
-          plugin_habits_languages_limit: 8
+          username: ${{ github.repository_owner }}
+          token: ${{ secrets.GHT || github.token }}
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add *.svg
+          if ! git diff --staged --quiet; then
+            git commit -m 'Update stats'
+            git push
+          fi
