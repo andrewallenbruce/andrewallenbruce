@@ -8,4 +8,6 @@ I'm a data analyst with a degree in Health Information Management. I am a [Regis
 
 ![Github Contribution Graph](https://ghchart.rshah.org/andrewallenbruce)
 
+![kodama tree for andrewallenbruce](https://kodama-sigma.vercel.app/andrewallenbruce.svg?theme=paper&tint=lang)
+
 ---
